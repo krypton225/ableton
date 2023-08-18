@@ -1,0 +1,14 @@
+{
+    "conventionalCommits.scopes": [
+        "ignore-files",
+        "dev-dependency",
+        "style-linter",
+        "styling",
+        "script",
+        "markup",
+        "settings"
+    ],
+    "cSpell.words": [
+        "Ableton"
+    ]
+}
