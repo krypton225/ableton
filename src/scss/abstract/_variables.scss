@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-/* stylelint-disable scss/dollar-variable-empty-line-before */
+// stylelint-disable scss/dollar-variable-empty-line-before
 
 $base-font-size: 16;
 
 $text-decoration-ink-props: (-webkit-text-decoration-skip, text-decoration-skip-ink) !default;
+
+$font-family-name: "Futura PT Boo", "Futura PT Light", "Futura PT Medium", "Futura PT Demi", "Futura PT Heavy",
+    "Futura PT Bold", "Futura PT Extra Bold", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    sans-serif;
