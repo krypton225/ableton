@@ -1,0 +1,11 @@
+@use "../mixins/general/color-generator" as mx;
+@include mx.generate-colors(
+    (
+        "light-yellow": #fbffa7,
+        "dark-orange": #ff764d,
+        "light-blue": #b1c5ff,
+        "dark-blue": #0000ff,
+        "light-pink": #d5b3ff,
+        "light-green": #d5b3ff
+    )
+);
