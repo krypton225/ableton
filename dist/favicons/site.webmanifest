@@ -1,0 +1,69 @@
+{
+    "name": "Ableton",
+    "short_name": "Ableton",
+    "icons": [
+        {
+            "src": "./Android-Chrome/icons8-a-arcade-72.webp",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "./Android-Chrome/icons8-a-arcade-96.webp",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./iOS-Safari-Web-Clip/icons8-a-arcade-57.webp",
+            "sizes": "57x57",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./iOS-Safari-Web-Clip/icons8-a-arcade-60.webp",
+            "sizes": "60x60",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./iOS-Safari-Web-Clip/icons8-a-arcade-72.webp",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./iOS-Safari-Web-Clip/icons8-a-arcade-76.webp",
+            "sizes": "76x76",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./Web/icons8-a-arcade-16.webp",
+            "sizes": "16x16",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./Web/icons8-a-arcade-32.webp",
+            "sizes": "32x32",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./Web/icons8-a-arcade-96.webp",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./Windows/icons8-a-arcade-70.webp",
+            "sizes": "70x70",
+            "type": "image/png",
+            "density": "2.0"
+        }
+    ],
+    "theme_color": "#0801FE",
+    "background_color": "#0801FE",
+    "display": "standalone"
+}
