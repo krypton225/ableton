@@ -21,9 +21,9 @@
         "email": "k.mohamed.11.98@gmail.com"
     },
     "scripts": {
-        "sass:watch": "sass --no-source-map ./src/main.scss:dist/styles.css --watch",
-        "sass:comp": "sass --no-source-map ./src/main.scss:dist/styles.min.css --watch --style=compressed",
-        "lint": "npx stylelint ./src/sass/**/*.scss",
+        "sass:watch": "sass --no-source-map ./src/scss/main.scss:dist/styles.css --watch",
+        "sass:comp": "sass --no-source-map ./src/scss/main.scss:dist/styles.min.css --watch --style=compressed",
+        "lint": "npx stylelint ./src/scss/**/*.scss",
         "cmt": "cz",
         "gen:lock": "npm i --package-lock-only"
     },
