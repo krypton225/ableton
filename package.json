@@ -1,0 +1,41 @@
+{
+    "name": "ableton",
+    "version": "0.0.1",
+    "description": "This is just a challenge in frontend practice website.",
+    "license": "MIT",
+    "main": "./src/js/index.js",
+    "homepage": "https://github.com/krypton225/ableton#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krypton225/ableton.git"
+    },
+    "bugs": {
+        "url": "https://github.com/krypton225/ableton/issues"
+    },
+    "keywords": [
+        "challenge",
+        "frontend practice"
+    ],
+    "author": {
+        "name": "Khaled Mohamed",
+        "email": "k.mohamed.11.98@gmail.com"
+    },
+    "scripts": {
+        "sass:watch": "sass --no-source-map ./src/main.scss:dist/styles.css --watch",
+        "sass:comp": "sass --no-source-map ./src/main.scss:dist/styles.min.css --watch --style=compressed",
+        "lint": "npx stylelint ./src/sass/**/*.scss",
+        "cmt": "cz",
+        "gen:lock": "npm i --package-lock-only"
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.3.0",
+        "sass": "^1.66.0",
+        "stylelint": "^15.10.2",
+        "stylelint-config-standard-scss": "^10.0.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
