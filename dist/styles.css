@@ -1,0 +1,80 @@
+:root {
+  --light-yellow-clr: #fbffa7;
+  --dark-orange-clr: #ff764d;
+  --light-blue-clr: #b1c5ff;
+  --dark-blue-clr: #0000ff;
+  --light-pink-clr: #d5b3ff;
+  --light-green-clr: #d5b3ff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: "Futura PT Boo", "Futura PT Light", "Futura PT Medium", "Futura PT Demi", "Futura PT Heavy", "Futura PT Bold", "Futura PT Extra Bold", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: auto;
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms;
+    animation-duration: 0.01ms;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-transition-duration: 0.01ms;
+    -o-transition-duration: 0.01ms;
+    transition-duration: 0.01ms;
+    scroll-behavior: smooth;
+  }
+}
